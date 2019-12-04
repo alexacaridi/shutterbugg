@@ -1,0 +1,92 @@
+/* Shutterbugg Bootstrap Project 12/3/2019 */
+
+body {
+	background-color: #3F3D3F;
+}
+
+.container {
+	max-width:968px;
+}
+
+.main {
+	background-image: url("../images/intro.jpg");
+	height: 600px;
+	background-size: cover;
+	opacity: .9;
+	padding-top: 30px;
+}
+
+.main h1{
+	font-family: 'Fugaz One', cursive;
+	font-size: 68px;
+	color: white;
+	text-shadow: 8px 8px 10px #3F3D3F;
+	transition: text-shadow 1s;
+}
+
+.main h1:hover{
+	text-shadow: #92BDE8 5px 5px 5px;
+}
+
+.main h2 {
+	font-family: 'Petit Formal Script', cursive;
+	font-weight: bold;
+	color: #3F3D3F;
+	margin-bottom: 50px;
+}
+
+a.btn {
+	font-size: 24px;
+	font-family: 'Tajawal', sans-serif;
+	color: white;
+	background-color: #3F3D3F;
+	border-radius: 32px;
+	padding: 15px;
+}
+
+a.btn:hover{
+	color: white;
+	text-shadow: 2px 2px 2px gray;
+	font-weight: bold;
+}
+
+.row {
+	padding-top: 30px;
+	color: white;
+}
+
+.row h1{
+	font-family: 'Fugaz One', cursive;
+}
+
+.row p {
+	font-family: 'Tajawal', sans-serif;
+}
+
+#store {
+	text-align: center;
+	border-bottom: 1px solid #3F3D3F;
+	padding-top: 30px;
+	color: white;
+	font-family: 'Tajawal', sans-serif;
+}
+
+.footer h1 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.footer ul{
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.col-md-6 h1 {
+	padding-top: 120px;
+}
